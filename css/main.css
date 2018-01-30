@@ -1,50 +1,116 @@
 * {
-  font-family: roboto, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   box-sizing: border-box;
 }
-main {
-  width: 90%;
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+header {
+  background-color: #ffffff;
+}
+nav {
   margin: auto;
+}
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  margin: 0;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li:last-child {
+  text-align: right;
+}
+.logo {
+  max-width: 120px;
+}
+.hero {
+  height: 60vh;
+  position: relative;
+}
+.hero-image {
+  height: 100%;
+  background-image:linear-gradient(rgba(255, 140, 58, 0.6), rgba(255, 60, 60, 0.6)), url("../img/hero.png");
+}
+.hero-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.hero-content > h2 {
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .clearfix {
   clear: both;
 }
 .projects-container {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 2em 0;
 }
 .projects-container > h2 {
   width: 100%;
 }
 .project-card {
   width: 30%;
-  padding: 1em;
-  margin-bottom: 2em;
-  border: 1px solid #f1f1f1;
+  margin-bottom: 3em;
+  border: 1px solid #e6e5e5;
+  background-color: #ffffff;
   border-radius: 0.3em;
+  position: relative;
 }
-.project-card > p {
+.project-card-figure {
+  margin: 0;
+}
+.project-card-figure img {
+  width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.project-card-content {
+  padding: 1em;
+}
+.project-card-content > p {
   text-align: left;
-  padding-bottom: 1em;
-  border-bottom: 1px dashed #f1f1f1;
-  min-height: 120px;
+  padding-bottom: 2em;
+  font-size: 0.9em;
 }
-.project-card > a {
+.project-card-link {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.project-card-link > a {
+  display: block;
   font-size: 0.9em;
   font-weight: bold;
   padding: 0.5em;
-  background-color: #000000;
+  background-color: #10161a;
+  border: 1px solid #10161a;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #000000;
-  border-radius: 2px;
+  text-align: center;
   cursor: pointer;
-  float: right;
 }
-.project-card > a:hover {
+.project-card-link > a:hover {
   background-color: #ffffff;
-  color: #000000;
+  border: 1px solid #e6e5e5;
+  color: #ff4e4e;
+}
+footer {
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 1.5em 0;
 }
