@@ -1,0 +1,50 @@
+* {
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+.clearfix {
+  clear: both;
+}
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects-container > h2 {
+  width: 100%;
+}
+.project-card {
+  width: 30%;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: 1px solid #f1f1f1;
+  border-radius: 0.3em;
+}
+.project-card > p {
+  text-align: left;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #f1f1f1;
+  min-height: 120px;
+}
+.project-card > a {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0.5em;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  cursor: pointer;
+  float: right;
+}
+.project-card > a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
