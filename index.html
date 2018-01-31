@@ -21,14 +21,6 @@
     
     <!-- preload stylesheet resource via declarative markup -->
     <link rel="preload" href="css/main.css" as="style">
-    <!-- or, preload stylesheet resource via JavaScript -->
-    <script>
-      var res = document.createElement("link");
-      res.rel = "preload";
-      res.as = "style";
-      res.href = "css/main.css";
-      document.head.appendChild(res);
-    </script>
   </head>
   <body>
     <header>
