@@ -3,7 +3,7 @@ Pe Knll portfolio is a simple project create to the Udacity Fullstack Nanodegree
 
 ### Install
 1. Clone, or fork and clone, the repository:
-`git clone https://github.com/Pedroknoll/.git`
+`git clone https://github.com/Pedroknoll/portfolio-website.git`
 
 ### License
 This project is licensed under the terms of the [MIT license](https://github.com/Pedroknoll/movie-trailer-website/blob/master/LICENSE).
