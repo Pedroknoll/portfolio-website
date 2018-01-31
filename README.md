@@ -1,4 +1,4 @@
-# portfolio-website
+# Pe Knll - Portfolio Website
 Pe Knll portfolio is a simple project create to the Udacity Fullstack Nanodegree. The website lists some projects and is fully responsive.
 
 ### Install
