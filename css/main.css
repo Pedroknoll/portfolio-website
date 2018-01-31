@@ -148,6 +148,7 @@ footer {
 }
 .social-icons > li {
   list-style: none;
+  margin: 0.2em;
 }
 
 /* Responsive Stlying */
