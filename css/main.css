@@ -13,18 +13,28 @@ nav {
   margin: auto;
 }
 nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   padding: 0 10%;
-  margin: 0;
 }
 nav > ul > li {
   list-style: none;
 }
 nav > ul > li:last-child {
-  text-align: right;
+  text-align: center;
 }
 .logo {
   max-width: 120px;
@@ -54,16 +64,21 @@ nav > ul > li:last-child {
 .projects-container {
   width: 80%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   padding: 2em 0;
 }
 .projects-container > h2 {
   width: 100%;
 }
 .project-card {
-  width: 30%;
+  width: 100%;
   margin-bottom: 3em;
   border: 1px solid #e6e5e5;
   background-color: #ffffff;
@@ -84,7 +99,6 @@ nav > ul > li:last-child {
 .project-card-content > p {
   text-align: left;
   padding-bottom: 2em;
-  font-size: 0.9em;
 }
 .project-card-link {
   position: absolute;
