@@ -46,11 +46,18 @@ nav > ul > li:last-child {
 .hero-image {
   height: 100%;
   background-image:linear-gradient(rgba(255, 140, 58, 0.6), rgba(255, 60, 60, 0.6)), url("../img/hero.png");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 .hero-content {
   position: absolute;
-  top: 30%;
+  top: 20%;
   width: 100%;
+  padding:0 4%
 }
 .hero-content > h2 {
   font-size: 3em;
@@ -99,6 +106,7 @@ nav > ul > li:last-child {
 .project-card-content > p {
   text-align: left;
   padding-bottom: 2em;
+  font-size: 1.1em;
 }
 .project-card-link {
   position: absolute;
