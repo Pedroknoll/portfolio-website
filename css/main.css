@@ -1,3 +1,4 @@
+/* General styling */
 * {
   font-family: 'Ropa Sans', sans-serif;
   box-sizing: border-box;
@@ -9,6 +10,10 @@ body {
 header {
   background-color: #ffffff;
 }
+.clearfix {
+  clear: both;
+}
+/* Nav styling */
 nav {
   margin: auto;
 }
@@ -39,6 +44,7 @@ nav > ul > li:last-child {
 .logo {
   max-width: 120px;
 }
+/* Hero styling */
 .hero {
   height: 60vh;
   position: relative;
@@ -65,9 +71,7 @@ nav > ul > li:last-child {
   font-weight: bold;
   text-align: center;
 }
-.clearfix {
-  clear: both;
-}
+/* Projects Stlying */
 .projects-container {
   width: 80%;
   margin: auto;
@@ -131,8 +135,35 @@ nav > ul > li:last-child {
   border: 1px solid #e6e5e5;
   color: #ff4e4e;
 }
+/* Footer Stlying */
 footer {
   text-align: center;
   background-color: #eeeeee;
   padding: 1.5em 0;
 }
+/* Responsive Stlying */
+@media only screen and (min-width: 400px) {
+  .hero-content {
+      top: 30%;
+  }
+}
+@media only screen and (min-width: 651px) {
+  .project-card {
+    width: 48%;
+  }
+  nav > ul {
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+  }
+  nav > ul > li:last-child {
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 981px) {
+  .project-card {
+    width: 30%;
+  }
+}
+
