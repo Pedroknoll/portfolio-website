@@ -137,6 +137,15 @@ footer {
   background-color: #eeeeee;
   padding: 1.5em 0;
 }
+.social-icons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .social-icons > li {
   list-style: none;
 }
